@@ -13,6 +13,7 @@ public class Exercise1 {
 		return result;
 	}
 	private void helper(int[] coins, int target, int index, List<Integer> res) {
+		//Base Case
 		if (index == 4) {
 			return;
 		}
@@ -24,6 +25,7 @@ public class Exercise1 {
 		// TODO Auto-generated method stub
 		Exercise1 s = new Exercise1();
 		System.out.println(s.coinChange(83));
+		  // Test Cases
     System.out.println(s.coinChange(22));
     System.out.println(s.coinChange(40));
 		}
